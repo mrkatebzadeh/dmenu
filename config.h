@@ -8,18 +8,17 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#cccccc", "#282a36" },
-	[SchemeSel] = { "#ffffff", "#004466" },
+	[SchemeNorm] = { "#7c9f85", "#292f2f" },
+	[SchemeSel] = { "#7c9f85", "#454e4e" },
 	[SchemeSelHighlight] = { "#d7d7d7", "#282f36" },
-	[SchemeNormHighlight] = { "#e78481", "#282f36" },
+	[SchemeNormHighlight] = { "#c5a47b", "#282f36" },
 	[SchemeOut] = { "#000000", "#00ffff" },
-	[SchemeMid] = { "#d7d7d7", "#282f36" },
+	[SchemeMid] = { "#7c9f85", "#292d2f" },
 };
 
 static unsigned int lines      = 0;
 static unsigned int lineheight = 22;  
 static unsigned int columns    = 0;
-
 
 static const char worddelimiters[] = " ";
 
