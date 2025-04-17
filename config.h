@@ -2,9 +2,8 @@ static int topbar = 0;
 static int centered = 1;  
 static int min_width = 1000; 
 static int fuzzy = 1;       
-static const char *fonts[] = {
-	"FiraCodeNerdFont:pixelsize=18"
-};
+static const char *fonts[]          = { "monospace:size=18" };
+
 static const char *prompt      = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
@@ -22,7 +21,7 @@ static unsigned int columns    = 0;
 
 static const char worddelimiters[] = " ";
 
-static unsigned int border_width = 0;  
+static unsigned int border_width = 3;  
 
 // Local Variables:
 // eval: (add-hook 'after-save-hook
